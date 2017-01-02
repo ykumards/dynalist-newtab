@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Dynalist New Tab",
+  "version": "1.0",
+  "short_name": "DynalistTab",
+  
+  "description": "Use Dynalist page in Chrome's new tab",
+
+  "homepage_url": "https://github.com/ykumards/dynalist-newtab",  
+
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "options_page": "options.html"
+}
